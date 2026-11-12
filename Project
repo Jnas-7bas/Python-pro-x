@@ -1,1 +1,20 @@
-:))
+meme_dict = {
+            "CRINGE": "Algo excepcionalmente raro o embarazoso",
+            "LOL": "Una respuesta común a algo gracioso",
+            "GOAT": "Se usa para elogiar a alguien",
+            "Factos": "Cuando algo es una verdad absoluta",
+            "Prime": "Estar en un buen momento"
+            }
+
+print("------------------")
+print("DICCIONARIO")
+print("------------------\n")
+print(list(meme_dict.keys()))
+
+a = input("Escribe una palabra que no entiendas con mayusculas")
+
+if a in meme_dict.keys():
+    print(meme_dict[a])
+
+else:
+    print("No se encontro esa palabra")
