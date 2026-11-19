@@ -1,0 +1,12 @@
+import random
+import time
+
+x = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+password = ""
+
+a = int(input("Enter the length of your password: "))
+for i in range(a):
+    password += random.choice(x)
+print("Generating password...")
+time.sleep4
+print("Your password is: " + password)
