@@ -1,0 +1,18 @@
+#:))
+import random
+
+x = random.randint(1,20)
+
+for i in range(5):
+    print("\nIntento", i+1)
+    a = int(input(("Adivina el numero en el que pienso...")))
+    if a == x:
+        print("\nWOW, No crei que lo hicieras...")
+        print("GANASTE!!")
+        break
+    elif a > x:
+        print("\nPista: el numero es menor...")
+        print("Intenta otra vez :/")
+    elif a < x:
+        print("\nPista: el numero es mayor...")
+        print("Intenta otra vez :/")
